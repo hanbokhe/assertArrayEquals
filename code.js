@@ -1,4 +1,4 @@
-function assertArrayEquals(actual, expected, testName){  
+function assertArraysEquals(actual, expected, testName){  
   var sameLength = actual.length === expected.length;
   var sameValue = true;
 
